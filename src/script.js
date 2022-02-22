@@ -11,7 +11,7 @@ const chooseOption = (opt1, opt2) => {
 }
 
 const attackPlayer = function(health) {
-    return health - randomDamage;
+    return health - randomDamage();
 }
 
 const logHealth = (player, health) => {
